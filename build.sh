@@ -96,7 +96,11 @@ install_ocp_tools() {
 }
 
 make_and_makeinstall() {
+    while sleep 1; do ps -eLf | wc -l | xargs echo threads:; done &
+    local pid=$!
+    export GODEBUG=schedtrace=1000
     make && make install
+    kill $pid
 }
 
 configure_user(){
