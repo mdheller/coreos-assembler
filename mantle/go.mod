@@ -40,9 +40,9 @@ require (
 	github.com/vishvananda/netns v0.0.0-20150710222425-604eaf189ee8
 	github.com/vmware/govmomi v0.15.0
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
-	golang.org/x/text v0.3.6
+	golang.org/x/text v0.3.8
 	google.golang.org/api v0.34.0
 	gopkg.in/yaml.v2 v2.4.0
 )
